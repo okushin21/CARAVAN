@@ -5,45 +5,123 @@
   box-sizing: border-box;
 }
 
-.header {
-  width: 100%; /* 横幅いっぱい */
-  height: 50px;
-  background-color: red; /* 背景色red */
+header {
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.nav-list {
+  text-align: center;
+  padding: 15px 0;
+  margin: 0 auto;
+  border-bottom: 1px solid #848282;
+  border-top: 1px solid #848282;
+}
+
+.nav-list-item {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
 }
 
 .main-visual {
   width: 100%; /* 横幅いっぱい */
-  height: 500px;
-  background-color: orange; /* 背景色orange */
+  height: 300px;
+}
+
+.main-visual-content {
+  width: 350px; /* 横幅350px */
+  height: 300px; /* 親の高さに揃える */
 }
 
 .main {
-  width: 960px;
-  display: flex; /* Flexboxの利用 */
-  justify-content: center; /* 要素の横並び・中央寄せ */
-  margin: 0 auto; /* 中央寄せ（左右に余白がないとできない） */
+  width: 800px;
+  margin: 50px auto; /* 中央寄せ（左右に余白がないとできない） */
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.sidebar-left {
-  width: 230px;
-  height: 1400px; /* 高さ1400px */
-  background-color: palegreen; /* 背景色palegreen */
+.box1 {
+  width: 200px;
+  height: 200px;
+  background-color: #e6ffe9;
 }
 
-.blog {
-  width: 500px;
-  height: 1400px; /* 高さ1400px */
-  background-color: limegreen; /* 背景色limegreen */
+.box2 {
+  width: 200px;
+  height: 200px;
+  background-color: #cbffd3;
 }
 
-.sidebar-right {
-  width: 230px;
-  height: 1400px; /* 高さ1400px */
-  background-color: palegreen; /* 背景色palegreen */
+.box3 {
+  width: 200px;
+  height: 200px;
+  background-color: #aeffbd;
 }
 
-.footer {
+.box4 {
+  width: 200px;
+  height: 200px;
+  background-color: #93ffab;
+}
+
+.box5 {
+  width: 200px;
+  height: 200px;
+  background-color: #f3ffd8;
+}
+
+.box6 {
+  width: 200px;
+  height: 200px;
+  background-color: #edffbe;
+}
+
+.box7 {
+  width: 200px;
+  height: 200px;
+  background-color: #e9ffa5;
+}
+
+.box8 {
+  width: 200px;
+  height: 200px;
+  background-color: #e4ff8d;
+}
+
+.box9 {
+  width: 200px;
+  height: 200px;
+  background-color: #d9e5ff;
+}
+
+.box10 {
+  width: 200px;
+  height: 200px;
+  background-color: #bad3ff;
+}
+
+.box11 {
+  width: 200px;
+  height: 200px;
+  background-color: #a4c6ff;
+}
+
+.box12 {
+  width: 200px;
+  height: 200px;
+  background-color: #8eb8ff;
+}
+
+footer {
   width: 100%; /* 横幅いっぱい */
-  height: 100px;
-  background-color: blue; /* 背景色blue */
+  height: 120px; /* 高さ120px */
+  text-align: center;
+  line-height: 120px;
+  background-color: #848282;
+}
+
+.footer-text {
+  color: #fff;
 }
